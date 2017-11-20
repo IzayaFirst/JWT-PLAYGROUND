@@ -2,4 +2,98 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: #F7F7F7;
+}
+
+.header {
+  background: #2a333c;
+  min-height: 20vh;
+  text-align: center;
+  padding: 55px 0;
+}
+.title {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+}
+.red {
+  color: #C12127;
+}
+.btn-group {
+  margin-top: 10px;
+}
+.algorithm {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 22px;
+  background: #FFF;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.select-algo {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.error {
+  padding: 15px 0;
+  color: #f77669;
+  font-size: 18px;
+}
+.playground {
+  padding: 35px 0;
+}
+.card {
+  padding: 15px;
+  background: #263238;
+  display: block;
+}
+.token {
+  font-size: 12px;
+  overflow: auto;
+  color: #82B1FF;
+}
+.btn-run {
+  background-color: transparent !important;
+  border-color: #00d1b2 !important;
+  border-width: 1px !important;
+  color: #00d1b2 !important;
+  -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 3px;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 14px;
+    height: 32px;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    line-height: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+    vertical-align: top;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    white-space: nowrap;
+} 
+.btn-run:hover {
+  background: #00d1b2;
+  color: white;
+}
+.button-group {
+    background-color: #282c34;
+    padding: 8px;
+    border-radius: 0 0 3px 3px;
 }
