@@ -183,6 +183,9 @@ class App extends Component {
             </div>
           </div>
         </section>
+        <footer>
+          INT402 JSON WEB TOKEN
+        </footer>
       </div>
     );
   }

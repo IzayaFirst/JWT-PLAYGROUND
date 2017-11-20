@@ -97,3 +97,9 @@ body {
     padding: 8px;
     border-radius: 0 0 3px 3px;
 }
+
+footer {
+  background-color: #282c34;
+  padding: 35px;
+  color: white;
+}
